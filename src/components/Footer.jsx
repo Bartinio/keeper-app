@@ -7,7 +7,7 @@ function Footer() {
     return (
         <>
             <footer>
-                 <p> &copy; {cutterntDate}</p>
+                 <p> Copyright &copy; {cutterntDate}</p>
              </footer>
         </>
     )
