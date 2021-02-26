@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 
 ReactDOM.render(<h2>Keeper app</h2>, document.getElementById("root"));
-
+clear
 
 
 
