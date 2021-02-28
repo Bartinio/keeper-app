@@ -5,11 +5,11 @@ import Note from "./Note";
 import notes from "../notes";
 
 
-function createEntry(props) {
+function createEntry(noteItem) {
     return <Note 
-        key = {props.key}
-        title = {props.title}
-        content = {props.content}
+        key = {noteItem.key}
+        title = {noteItem.title}
+        content = {noteItem.content}
     />
 }
 
